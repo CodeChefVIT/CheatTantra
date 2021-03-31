@@ -1,0 +1,239 @@
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: lightgrey;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: lightgrey;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: lightgrey;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: lightgrey;
+}
+
+.tooltip>.tooltip-inner {
+    background-color: lightgrey;
+    color: black;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+    z-index: 0;
+    opacity: 0;
+    transition: 0s 0s opacity;
+}
+
+.jumbo-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.top-jumbo {
+    margin-top: 5em;
+}
+
+#Recognitions {
+    width: 85%;
+}
+
+.offcanvas-collapse .nav-item {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.offcanvas-collapse .dropdown-item {
+    font-size: 1em;
+    border-left: 4px solid lightgrey;
+}
+
+.offcanvas-collapse .dropdown:hover,
+.offcanvas-collapse .dropdown:active {
+    background-color: lightgrey;
+}
+
+.offcanvas-collapse .dropdown-menu {
+    background-color: lightgrey;
+    border: 0;
+    font-size: 0.875em;
+    border-radius: unset;
+    border-right: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.offcanvas-collapse .nav-item:hover,
+.offcanvas-collapse .nav-item:focus,
+.offcanvas-collapse .nav-item:active {
+    background-color: lightgrey;
+    color: black;
+}
+
+.offcanvas-collapse .dropdown-item:hover,
+.offcanvas-collapse .dropdown-item:focus,
+.offcanvas-collapse .dropdown-item.active {
+    border-left: 4px solid #ffdc28;
+    color: black;
+    font-weight: bold;
+}
+
+.offcanvas-collapse .dropdown-item[href='mailto:support@codetantra.com']:hover,
+.offcanvas-collapse .dropdown-item[href='mailto:support@codetantra.com']:focus,
+.offcanvas-collapse .dropdown-item[href='mailto:support@codetantra.com'].active,
+.offcanvas-collapse .dropdown-item[href='/#RemoteProctoring']:hover,
+.offcanvas-collapse .dropdown-item[href='/#RemoteProctoring']:focus,
+.offcanvas-collapse .dropdown-item[href='/#RemoteProctoring'].active {
+    font-weight: normal;
+}
+
+.offcanvas-collapse a.nav-link {
+    background-color: unset;
+}
+
+
+#counters .counter {
+    background-color: rgba(230, 119, 22, 0.06);
+    margin: .5em .5em;
+    border-radius: 37% 43% 7% 31%;
+}
+
+#counters .count-title {
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#counters .count-text {
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#counters img {
+    height: 3em;
+}
+
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+    transform: rotate(90deg);
+}
+
+#Customers .card {
+    background-color: rgba(230, 119, 22, 0.03);
+}
+
+.tooltip ul {
+    list-style: outside;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+
+    .shadow-none-lg {
+        box-shadow: none !important;
+    }
+}
+
+/*noinspection CssFloatPxLength*/
+@media (max-width: 991.98px) {
+
+    /*noinspection CssOverwrittenProperties*/
+    .offcanvas-collapse {
+        position: fixed;
+        top: 0;
+        /*width: 100%;*/
+        overflow-y: auto;
+        visibility: hidden;
+        transition: visibility .1s ease-in-out, -webkit-transform .1s ease-in-out;
+        transition: transform .1s ease-in-out, visibility .1s ease-in-out;
+        transition: transform .1s ease-in-out, visibility .1s ease-in-out, -webkit-transform .1s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateY(38px);
+        transform: translateY(38px);
+    }
+
+    .top-jumbo {
+        margin-top: 4em
+    }
+
+    #Recognitions {
+        width: 100%;
+    }
+
+    #counters {
+        font-size: 0.625em;
+    }
+
+    #counters img {
+        height: 30px;
+    }
+}
+
+#rickrolled,
+#text {
+    background-color: rgba(128, 175, 246, 0.295);
+    margin: .5em .5em;
+    padding: 10px;
+    border-radius: 37% 43% 7% 31%;
+}
+
+.discord-btn-div {
+    text-align: center;
+}
+
+.discord {
+    display: flex;
+    background-color: #7289da;
+    color: #fff;
+    border: none;
+    margin: 20px auto;
+    outline: 0;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    align-items: center;
+    padding: 5px 14px;
+    width: fit-content;
+    text-decoration: none;
+    font-family: poppins-light, sans-serif;
+}
+
+.discord:hover {
+    background-color: rgba(114, 137, 218, .9);
+    text-decoration: none;
+    color: white;
+}
+
+.discord img {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#body {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
